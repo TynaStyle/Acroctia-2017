@@ -1,0 +1,95 @@
+ main{
+	 background: url(img/logo-19.jpg);
+	 font-family: 'Lato', sans-serif;
+	 font-size: 14px;
+	 font-weight: 400;
+	 color: #fff;
+	 padding-right: 150px;
+	 padding-left: 150px;
+	 padding-bottom: 55px;
+	 padding-top: 25px;
+ }
+
+ .navbar-default{
+	 background:  url(img/logo-19.jpg);
+     border: none;
+	 padding-top: 20px;
+ }
+
+ nav img{
+ 	 float: left;
+ }
+li>a {
+	padding: 4px;
+}
+ li>a:hover {
+     
+     background-color: #91778e;
+     color: #fff;
+     border-radius: 4px;
+ }   
+
+ .active{
+     background-color:#91778e;
+     border-radius: 4px;
+     color: #fff;
+ }
+
+ .s1{
+ 	 text-align: center;
+ }
+
+ .s1 h2{
+ 	 font-size: 60px;
+ 	 padding-top: 20px;
+ 	 padding-bottom: 20px;
+ }
+
+ .s1 h4{
+ 	 font-size: 14px;
+ 	 line-height: 1.5;	
+ }
+
+ a{ 
+	 text-decoration: none;
+	 color: #fff;
+
+ }
+
+ .s2 h3{
+ 	 font-size:24px;
+ 	 text-align: center;
+ 	 padding-bottom: 50px;
+ 	 padding-top: 50px;
+ }
+
+ @media screen and (min-width: 320px;){
+ 	 .col-md-3{
+ 		 width: 25%;
+ }
+ 	 .col-xs-12{
+ 		 width: 100%;
+ }
+ 	 .col-sm-6{
+ 		 width: 50%;
+ }
+ }
+
+ li{
+ 	 list-style-type: none;
+ 	 display: inline;
+ 	 padding: 4px;
+ 	
+ }
+
+ ul{
+ 	 padding-top: 20px;
+ 	 float: right;
+ 	 font-size: 16px;
+ 	 
+ }
+
+ .clearfix{
+ 	 clear: both;
+ }
+ 	
